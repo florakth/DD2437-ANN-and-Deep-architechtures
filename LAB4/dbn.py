@@ -290,6 +290,8 @@ class DeepBeliefNet():
     def train_wakesleep_finetune(self, vis_trainset, lbl_trainset, n_iterations):
 
         """
+        This code is from github repositories.
+
         Wake-sleep method for learning all the parameters of network. 
         First tries to load previous saved parameters of the entire network.
         Args:
